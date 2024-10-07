@@ -1,0 +1,498 @@
+tree
+sudo apt install tree
+sudo apt install git
+vim
+sudo apt install vim
+mkdir repogit
+ls -l
+cd repogit
+ls- l
+ls -l
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/abichuela91/UTNFRA_SO_1P2C_2024_AGUILAR.git
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a 
+tree
+cd ..
+mkdir -p /Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+sudo mkdir -p /Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+ls -l
+ls 
+ls -l
+mkadir -p /Estructura_Asimetrica/{correo,clientes}/cartas_{1..100},correo/carteros_{1..10}
+mkdir -p /Estructura_Asimetrica/{correo,clientes}/cartas_{1..100},correo/carteros_{1..10}
+sudo mkdir -p /Estructura_Asimetrica/{correo,clientes}/cartas_{1..100},correo/carteros_{1..10}
+ls -l
+sudo mkdir -p Estructura_Asimetrica/{correo,clientes}/cartas_{1..100},correo/carteros_{1..10}
+ls -l
+sudo mkdir -p Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+ls -l
+tree Estructura_Asimetrica/
+ls -l
+tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+tree Estructura_Asimetrica/ --noreport | pr -T -s' ' -w 80 --column 4
+repogit
+cd repogit
+tree
+cd UTNFRA_SO_1P2C_2024_AGUILAR/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_A.sh
+sudo apt install vim
+vim Punto_A.sh
+vim Punto_D.sh
+sudo chmod 764 Punto_D.sh
+ls -l
+./Punto_D.sh 
+vim Punto_D.sh
+./Punto_D.sh 
+vim Punto_D.sh
+./Punto_D.sh 
+vim Punto_D.sh
+./Punto_D.sh 
+vim Punto_A.sh
+sudo chmod 764 Punto_A.sh
+./Punto_A.sh 
+cd
+ls -l
+sudo fdisk -l
+sudo fdisk /dev/sdb
+sudo fdisk -l
+sudo mkfs -t ext4 /dev/sbd1
+lsbl -f
+lsblk -f
+sudo mkfs -t ext4 /dev/sdb1
+sudo mkfs -t ext4 /dev/sdb2
+sudo mkfs -t ext4 /dev/sdb3
+sudo mkfs -t ext4 /dev/sdb5
+sudo mkfs -t ext4 /dev/sdb6
+sudo mkfs -t ext4 /dev/sdb7
+sudo mkfs -t ext4 /dev/sdb8
+sudo mkfs -t ext4 /dev/sdb9
+sudo mkfs -t ext4 /dev/sdb10
+sudo mkfs -t ext4 /dev/sdb11
+lsblk -f
+tree Examenes-UTN/
+sudo mount /dev/sdb1 /Examenes-UTN/alumno_1/parcial_1
+sudo mount /dev/sdb2 /Examenes-UTN/alumno_1/parcial_2
+sudo mount /dev/sdb3 /Examenes-UTN/alumno_1/parcial_3
+sudo mount /dev/sdb5 /Examenes-UTN/alumno_2/parcial_1
+sudo mount /dev/sdb6 /Examenes-UTN/alumno_2/parcial_2
+sudo mount /dev/sdb7 /Examenes-UTN/alumno_2/parcial_3
+sudo mount /dev/sdb8 /Examenes-UTN/alumno_3/parcial_1
+sudo mount /dev/sdb9 /Examenes-UTN/alumno_3/parcial_2
+sudo mount /dev/sdb10 /Examenes-UTN/alumno_3/parcial_3
+sudo mount /dev/sdb11 /Examenes-UTN/profesores
+lsblk -f
+cat /etc/fstab
+echo "/dev/sdb1 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb2 /Examenes-UTN/alumno_1/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb3 /Examenes-UTN/alumno_1/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb5 /Examenes-UTN/alumno_2/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb6 /Examenes-UTN/alumno_2/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb7 /Examenes-UTN/alumno_2/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb8 /Examenes-UTN/alumno_3/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb9 /Examenes-UTN/alumno_3/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb10 /Examenes-UTN/alumno_3/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdb11 /Examenes-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+cat /etc/fstab
+sudo mount -a
+cat /etc/fstab
+sudo lsblk
+tree /Examenes-UTN/
+ls -l
+cd Examenes-UTN
+cd ..
+cd repogit
+tree
+rm -r Examenes-UTN
+rm -rf Exames-UTN/
+tree
+rm -rf /Estructura_Asimetrica/
+tree
+rm -r /Estructura_Asimetrica
+rm -r /Estructura_Asimetrica/
+cd ..
+ls -l
+cd repogit
+ls -l
+cd UTNFRA_SO_1P2C_2024_AGUILAR/
+ls -l
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+rm -r Estructura_Asimetrica/
+rm -rf Estructura_Asimetrica/
+rm -rf Estructura_Asimetrica
+ls -l
+rm Examenes-UTN/
+rm -r Examenes-UTN/
+cd Examenes-UTN/
+ls -l
+rm - r Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+cd ..
+rm - r Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+ls -l
+cd Examenes-UTN/
+ls-l
+ls -l
+cd ..
+rm - rf Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+cd Examenes-UTN/
+cd alumno_1
+ls-l
+ls -l
+rm -r parcial_1
+ls -l
+rm  parcial_1
+rm -rf parcial_1
+cd ..
+cd..
+cd ..
+vim Punto_B.sh
+sudo chmod 764 Punto_B.sh
+ls -l
+./Punto_B.sh 
+ls -l
+cd
+ls /home/
+sudo groupadd p1c2_2024_gAlumno
+sudo groupadd p1c2_2024_gProfesores
+sudo useradd -m -s /bin/bash -c "Alumno 1" -G p1c2_2024_gAlumno p1c2_2024_A1
+sudo passwd p1c2_2024_A1 
+sudo useradd -m -s /bin/bash -c "Alumno 2" -G p1c2_2024_gAlumno p1c2_2024_A2
+sudo passwd p1c2_2024_A2
+sudo useradd -m -s /bin/bash -c "Alumno 3" -G p1c2_2024_gAlumno p1c2_2024_A3
+sudo passwd p1c2_2024_A3
+sudo useradd -m -s /bin/bash -c "Profesor 1" -G p1c2_2024_gProfesores p1c2_2024_P1
+sudo passwd p1c2_2024_P1
+ls /home/
+sudo chown p1c2_2024_A1:p1c2_2024_gAlumno /Examenes-UTN/alumno_1
+sudo chown p1c2_2024_A2:p1c2_2024_gAlumno /Examenes-UTN/alumno_2
+sudo chown p1c2_2024_A3:p1c2_2024_gAlumno /Examenes-UTN/alumno_3
+sudo chown p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
+ls -l
+ls -l /Examenes-UTN
+sudo chmod 750 /Examenes-UTN/alumno_1
+sudo chmod 760 /Examenes-UTN/alumno_2
+sudo chmod 700 /Examenes-UTN/alumno_3
+sudo chmod 775 /Examenes-UTN/profesores
+ls -l /Examenes-UTN
+cd Examenes-UTN/alumno_1
+ls -l
+whoami > Validar.txt
+sudo whoami > Validar.txt
+cd ..
+whoami > Examenes-UTN/alumno_1/Validar.txt
+cd
+cd repogit
+tree
+cd UTNFRA_SO_1P2C_2024_AGUILAR
+cd RTA_SCRIPT_Examen_20241006
+vim Punto_C.sh
+chmod 764 Punto_C.sh
+./Punto_A.sh
+tree
+cd ..
+tree
+cd .. 
+cd ..
+ls -l
+id
+ls /home/
+id p1c2_2024_A1
+cd repogit
+ls
+whoami
+man whoami
+history
+cd repogit
+tree
+cd UTNFRA_SO_1P2C_2024_AGUILAR
+tree
+cd RTA_SCRIPT_Examen_20241006
+tree
+rm -r Examenes-UTN
+sudo rm -r Examenes-UTN
+tree
+sudo rm -r Estructura_Asimetrica
+tree
+cd ..
+tree
+cd ..
+tree
+cd ..
+ls -la
+ls -l
+cd Examenes-UTN
+tree
+ls -l
+cd ..
+ls -l/Examenes-UTN
+ls /home/
+ls -l /Examenes-UTN
+sudo -su -c "whoami > /Examenes-UTN/alumno_1/validar.txt" p1c2_2024_A1
+sudo -su -c "whoami > Examenes-UTN/alumno_1/validar1.txt" p1c2_2024_A1
+sudo -u p1c2_2024_A1 bash -c "whoami > /Examenes-UTN/alumno_1/validar.txt"
+sudo -u p1c2_2024_A2 bash -c "whoami > /Examenes-UTN/alumno_2/validar.txt"
+sudo -u p1c2_2024_A3 bash -c "whoami > /Examenes-UTN/alumno_3/validar.txt"
+sudo -u p1c2_2024_P1 bash -c "whoami > /Examenes-UTN/profesores/validar.txt"
+cat /Examenes-UTN/alumno_1/validar.txt
+ls -l/Examenes-UTN
+ls -l /Examenes-UTN
+cd /Examenes-UTN/alumno_1
+cd Examenes-UTN/alumno_1
+ls -l
+ls -la
+ls /home/
+id p1c2_2024_A1
+cd ..
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+sudo cat /Examenes-UTN/alumno_2/validar.txt
+sudo cat /Examenes-UTN/alumno_3/validar.txt
+sudo cat /Examenes-UTN/profesores/validar.txt
+tree
+cd UTNFRA_SO_1P2C_2024_AGUILAR/RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241006/
+/proc/meminfo
+sudo /proc/meminfo
+proc/meminfo
+/proc/meminfo
+sudo proc/meminfo
+sudo /proc/meminfo
+grep MemTotal /proc/meminfo
+sudo dmidecode -t chasis | grep Manufacturer
+sudo dmidecode -t chassis | grep Manufacturer
+sudo dmidecode -t chassis 
+cd
+sudo dmidecode -t chassis 
+sudo dmidecode -t chassis | grep Manufacturer
+grep MemTotal /proc/meminfo
+cd repogit
+tree
+cd ..
+grep MemTotal /proc/meminfo > /repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+grep MemTotal /proc/meminfo > repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+sudo dmidecode -t chassis | grep Manufacturer >> repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+cat repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+cd repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_SCRIPT_Examen_20241006
+tree
+vim Punto_A.sh
+vim Punto_E.sh
+sudo chmod 764 Punto_E.sh 
+./Punto_E.sh 
+ls -l
+./Punto_E.sh 
+vim Punto_E.sh
+./Punto_E.sh 
+vim Punto_E.sh
+./Punto_E.sh 
+cd ..
+grep MemTotal /proc/meminfo > RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+sudo dmidecode -t chassis | grep Manufacturer >> RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt 
+cat RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+tree
+RTA_SCRIPT_Examen_20241006/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh
+./Punto_E.sh 
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_AGUILAR/
+echo "Mi IP publica es: $(curl -s ifconfig.me)" > RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+sudo apt install curl
+echo "Mi IP publica es: $(curl -s ifconfig.me)" > RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+echo "Mi Usuario es: $(whoami)" >> RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+echo "El hash de mi Usuario es:$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print $2}')" >> RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+echo "La URL de mi repositorio es: $(git remove get-url origin)" >> RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+echo "La URL de mi repositorio es: $(git remove get - url origin)" >> RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+cat RTA_SCRIPT_Examen_20241006/Filtro_Avanzado.txt
+tree
+cd RTA_SCRIPT_Examen_20241006
+vim Punto_F.sh 
+sudo chmod 764 Punto_F.sh 
+ls -l
+./ Punto_F.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+cd ..
+echo "Mi IP publica es: $(curl -s ifconfig.me)" > RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+echo "Mi Usuario es: $(whoami)" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+echo "El hash de mi Usuario es:$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print $2}')" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+cat RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+tree
+cd RTA_SCRIPT_Examen_20241006
+tree
+rm -r Filtro_Avanzado.txt 
+tree
+rm -r RT
+tree
+vim Punto_F.sh 
+./Punto_F.sh 
+vim Punto_A.sh
+vim Punto_B.sh
+vim Punto_C.sh
+cd ..
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_AGUILAR/RTA_SCRIPT_Examen_20241006
+vim Punto_E.sh
+vim Punto_F.sh
+cd ..
+git status
+cd RTA_SCRIPT_Examen_20241006
+git status
+cd ..
+git status
+git add
+git conmin -m
+git commin -m
+git commit -m
+git status
+cd RTA_SCRIPT_Examen_20241006
+git status
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_AGUILAR/
+git status
+git add .
+git status
+git commi -m "mi parcial"
+git commit -m "mi parcial"
+git config --global user.name "abichuela91"
+tree
+cat << Alumno: Aguilar Abigail >> README.md
+
+
+cat << FIN >> README.md
+Alumno: Abigail Aguilar
+Division: 311
+Turno: Noche
+FIN
+
+git push
+tree
+cd ..
+tree
+sudo rm -r UTNFRA_SO_1P2C_2024_AGUILAR
+shh-keygen-t ed25519
+ssh-keygen-t ed25519
+tree
+ssh-keygen -t ed25519
+ls -la
+cd ..
+ls -la
+cd repogit
+tree
+cd
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd
+cd repogit
+ls -l
+git clone git@github.com:abichuela91/UTNFRA_SO_1P2C_2024_AGUILAR.git
+ls -l
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
+tree
+cd UTNFRA_SO_1P2C_2024_AGUILAR/RTA_SCRIPT_Examen_20241006
+tree
+vim Punto_A-sh
+vim Punto_A.sh
+chmod Punto_A.sh
+chmod 764 Punto_A.sh
+ls -l
+tree
+rm -r Punto_A-sh
+tree
+git status
+git add .
+git commit -m "Primer ejercicio"
+vim Punto_B.sh
+chmod 764 Punto_B.sh
+git status
+git add .
+git commit -m "Segundo ejercicio"
+git status
+vim Punto_C.sh
+chmod 764 Punto_C.sh
+git status
+git add .
+git commit -m "Tercer ejercicio"
+vim Punto_D.sh
+chmod 764 Punto_D.sh
+git status
+git add .
+git commit -m "Cuarto ejercicio"
+vim Punto_E.sh
+chmod 764 Punto_E.sh
+git status
+git add .
+git status
+git commit -m "Quinto ejercicio"
+vim Punto_F.sh
+chmod 764 Punto_F.sh
+git status
+git add .
+git status
+git commit -m "Sexto ejercicio"
+./Punto_A.sh 
+./Punto_B.sh 
+./Punto_C.sh 
+./Punto_D.sh 
+vim Punto_D.sh 
+./Punto_D.sh 
+vim Punto_D.sh 
+./Punto_D.sh 
+./Punto_E.sh 
+vim Punto_E.sh 
+cd ..
+grep MemTotal /proc/meminfo > RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt  
+sudo dmidecode -t chassis | grep Manufacturer >> RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+cat RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+echo "Mi IP publica es: $(curl -s ifconfig.me)" > RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt 
+echo "Mi Usuario es: $(whoami)" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt
+echo "El hash de mi Usuario es:$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print $2}')" >> RT 
+A_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt 
+echo "El hash de mi Usuario es:$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print $2}')" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt 
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt 
+cat RTA_ARCHIVOS_Examen_20241006/Filtro_Avanzado.txt 
+cd RTA_SCRIPT_Examen_20241006
+tree
+vim Punto_E.sh 
+./Punto_E.sh 
+vim Punto_E.sh 
+cat << FIN >> README.md
+Nombre: Abigail Aguilar
+Apellido: Aguilar
+Legajo:115405
+Division: 311
+FIN
+
+git push
+tree
+git status
+git add .
+git status
+git add .
+git status
+git commit -m "mis datos"
+git push
+tree
+cd ..
+tree
+cat << FIN >> README.md
+Nombre: Abigail
+Apellido: Aguilar
+Legajo: 115405
+Division: 311
+FIN
+
+git status
+git add README.md 
+git status
+git commit -m "mis datos personales"
+git push
+ls -la
+history -a $HOME/.bash_history
